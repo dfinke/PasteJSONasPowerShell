@@ -10,4 +10,6 @@ To install in your personal modules folder (e.g. ~\Documents\WindowsPowerShell\M
 iex (new-object System.Net.WebClient).DownloadString('https://raw.github.com/dfinke/PasteJSONasPowerShell/master/Install.ps1')
 ```
 
+### Using
+
 ![Image](https://raw.github.com/dfinke/PasteJSONasPowerShell/master/images/PastJSONAsPowerShell.gif)
