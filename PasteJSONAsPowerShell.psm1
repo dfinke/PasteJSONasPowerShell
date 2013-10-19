@@ -1,0 +1,10 @@
+. (Join-Path $PSScriptRoot Add-MenuItem.ps1)
+. (Join-Path $PSScriptRoot Invoke-CodeGen.ps1)
+. (Join-Path $PSScriptRoot Invoke-GenerateTree.ps1)
+. (Join-Path $PSScriptRoot Invoke-PasteJSONAsPowerShell.ps1)
+. (Join-Path $PSScriptRoot Invoke-PrettyPrint.ps1)
+. (Join-Path $PSScriptRoot New-ParamStmt.ps1)
+. (Join-Path $PSScriptRoot New-PSCustomObject.ps1)
+. (Join-Path $PSScriptRoot Split-List.ps1)
+
+Add-MenuItem "Paste JSON As PowerShell" ([scriptblock]::Create((Get-Command Invoke-PasteJSONAsPowerShell).Definition))
